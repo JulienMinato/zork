@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6F720E282C7A4900C014B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC6F720D282C7A4900C014B1 /* main.cpp */; };
+		EC6F723E282C7B0800C014B1 /* np2.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7214282C7B0700C014B1 /* np2.c */; };
+		EC6F723F282C7B0800C014B1 /* nrooms.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7215282C7B0700C014B1 /* nrooms.c */; };
+		EC6F7240282C7B0800C014B1 /* ballop.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7217282C7B0700C014B1 /* ballop.c */; };
+		EC6F7241282C7B0800C014B1 /* verbs.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7218282C7B0700C014B1 /* verbs.c */; };
+		EC6F7242282C7B0800C014B1 /* rooms.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F721A282C7B0700C014B1 /* rooms.c */; };
+		EC6F7243282C7B0800C014B1 /* dso6.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F721D282C7B0700C014B1 /* dso6.c */; };
+		EC6F7244282C7B0800C014B1 /* clockr.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F721E282C7B0700C014B1 /* clockr.c */; };
+		EC6F7245282C7B0800C014B1 /* sverbs.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F721F282C7B0700C014B1 /* sverbs.c */; };
+		EC6F7246282C7B0800C014B1 /* dso3.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7220282C7B0700C014B1 /* dso3.c */; };
+		EC6F7247282C7B0800C014B1 /* lightp.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7221282C7B0700C014B1 /* lightp.c */; };
+		EC6F7248282C7B0800C014B1 /* villns.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7222282C7B0700C014B1 /* villns.c */; };
+		EC6F7249282C7B0800C014B1 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7223282C7B0700C014B1 /* local.c */; };
+		EC6F724A282C7B0800C014B1 /* np3.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7225282C7B0700C014B1 /* np3.c */; };
+		EC6F724B282C7B0800C014B1 /* sobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7226282C7B0700C014B1 /* sobjs.c */; };
+		EC6F724C282C7B0800C014B1 /* supp.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7227282C7B0700C014B1 /* supp.c */; };
+		EC6F724D282C7B0800C014B1 /* dso7.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7228282C7B0700C014B1 /* dso7.c */; };
+		EC6F724E282C7B0800C014B1 /* nobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7229282C7B0700C014B1 /* nobjs.c */; };
+		EC6F724F282C7B0800C014B1 /* dgame.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F722A282C7B0700C014B1 /* dgame.c */; };
+		EC6F7250282C7B0800C014B1 /* objcts.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F722B282C7B0700C014B1 /* objcts.c */; };
+		EC6F7251282C7B0800C014B1 /* dso5.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F722D282C7B0700C014B1 /* dso5.c */; };
+		EC6F7252282C7B0800C014B1 /* demons.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F722E282C7B0700C014B1 /* demons.c */; };
+		EC6F7253282C7B0800C014B1 /* np1.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F722F282C7B0700C014B1 /* np1.c */; };
+		EC6F7254282C7B0800C014B1 /* dverb2.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7230282C7B0700C014B1 /* dverb2.c */; };
+		EC6F7255282C7B0800C014B1 /* dverb1.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7231282C7B0700C014B1 /* dverb1.c */; };
+		EC6F7256282C7B0800C014B1 /* actors.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7232282C7B0700C014B1 /* actors.c */; };
+		EC6F7257282C7B0800C014B1 /* dso4.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7234282C7B0700C014B1 /* dso4.c */; };
+		EC6F7258282C7B0800C014B1 /* gdt.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7236282C7B0700C014B1 /* gdt.c */; };
+		EC6F7259282C7B0800C014B1 /* dsub.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7237282C7B0700C014B1 /* dsub.c */; };
+		EC6F725A282C7B0800C014B1 /* dinit.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7238282C7B0700C014B1 /* dinit.c */; };
+		EC6F725B282C7B0800C014B1 /* dso1.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F7239282C7B0800C014B1 /* dso1.c */; };
+		EC6F725C282C7B0800C014B1 /* dso2.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F723A282C7B0800C014B1 /* dso2.c */; };
+		EC6F725D282C7B0800C014B1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EC6F723B282C7B0800C014B1 /* Makefile */; };
+		EC6F725E282C7B0800C014B1 /* np.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F723C282C7B0800C014B1 /* np.c */; };
+		EC6F725F282C7B0800C014B1 /* dmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EC6F723D282C7B0800C014B1 /* dmain.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC6F7208282C7A4900C014B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC6F720A282C7A4900C014B1 /* Zork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Zork; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6F720D282C7A4900C014B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC6F7214282C7B0700C014B1 /* np2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = np2.c; sourceTree = "<group>"; };
+		EC6F7215282C7B0700C014B1 /* nrooms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nrooms.c; sourceTree = "<group>"; };
+		EC6F7216282C7B0700C014B1 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		EC6F7217282C7B0700C014B1 /* ballop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ballop.c; sourceTree = "<group>"; };
+		EC6F7218282C7B0700C014B1 /* verbs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verbs.c; sourceTree = "<group>"; };
+		EC6F7219282C7B0700C014B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC6F721A282C7B0700C014B1 /* rooms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rooms.c; sourceTree = "<group>"; };
+		EC6F721B282C7B0700C014B1 /* funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funcs.h; sourceTree = "<group>"; };
+		EC6F721C282C7B0700C014B1 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EC6F721D282C7B0700C014B1 /* dso6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso6.c; sourceTree = "<group>"; };
+		EC6F721E282C7B0700C014B1 /* clockr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clockr.c; sourceTree = "<group>"; };
+		EC6F721F282C7B0700C014B1 /* sverbs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sverbs.c; sourceTree = "<group>"; };
+		EC6F7220282C7B0700C014B1 /* dso3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso3.c; sourceTree = "<group>"; };
+		EC6F7221282C7B0700C014B1 /* lightp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lightp.c; sourceTree = "<group>"; };
+		EC6F7222282C7B0700C014B1 /* villns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = villns.c; sourceTree = "<group>"; };
+		EC6F7223282C7B0700C014B1 /* local.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
+		EC6F7224282C7B0700C014B1 /* vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vars.h; sourceTree = "<group>"; };
+		EC6F7225282C7B0700C014B1 /* np3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = np3.c; sourceTree = "<group>"; };
+		EC6F7226282C7B0700C014B1 /* sobjs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sobjs.c; sourceTree = "<group>"; };
+		EC6F7227282C7B0700C014B1 /* supp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = supp.c; sourceTree = "<group>"; };
+		EC6F7228282C7B0700C014B1 /* dso7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso7.c; sourceTree = "<group>"; };
+		EC6F7229282C7B0700C014B1 /* nobjs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nobjs.c; sourceTree = "<group>"; };
+		EC6F722A282C7B0700C014B1 /* dgame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dgame.c; sourceTree = "<group>"; };
+		EC6F722B282C7B0700C014B1 /* objcts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objcts.c; sourceTree = "<group>"; };
+		EC6F722C282C7B0700C014B1 /* dtextc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = dtextc.dat; sourceTree = "<group>"; };
+		EC6F722D282C7B0700C014B1 /* dso5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso5.c; sourceTree = "<group>"; };
+		EC6F722E282C7B0700C014B1 /* demons.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = demons.c; sourceTree = "<group>"; };
+		EC6F722F282C7B0700C014B1 /* np1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = np1.c; sourceTree = "<group>"; };
+		EC6F7230282C7B0700C014B1 /* dverb2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dverb2.c; sourceTree = "<group>"; };
+		EC6F7231282C7B0700C014B1 /* dverb1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dverb1.c; sourceTree = "<group>"; };
+		EC6F7232282C7B0700C014B1 /* actors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = actors.c; sourceTree = "<group>"; };
+		EC6F7233282C7B0700C014B1 /* history */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = history; sourceTree = "<group>"; };
+		EC6F7234282C7B0700C014B1 /* dso4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso4.c; sourceTree = "<group>"; };
+		EC6F7235282C7B0700C014B1 /* dungeon.6 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dungeon.6; sourceTree = "<group>"; };
+		EC6F7236282C7B0700C014B1 /* gdt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdt.c; sourceTree = "<group>"; };
+		EC6F7237282C7B0700C014B1 /* dsub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dsub.c; sourceTree = "<group>"; };
+		EC6F7238282C7B0700C014B1 /* dinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dinit.c; sourceTree = "<group>"; };
+		EC6F7239282C7B0800C014B1 /* dso1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso1.c; sourceTree = "<group>"; };
+		EC6F723A282C7B0800C014B1 /* dso2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dso2.c; sourceTree = "<group>"; };
+		EC6F723B282C7B0800C014B1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EC6F723C282C7B0800C014B1 /* np.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = np.c; sourceTree = "<group>"; };
+		EC6F723D282C7B0800C014B1 /* dmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dmain.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6F7207282C7A4900C014B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6F7201282C7A4900C014B1 = {
+			isa = PBXGroup;
+			children = (
+				EC6F720C282C7A4900C014B1 /* Zork */,
+				EC6F720B282C7A4900C014B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6F720B282C7A4900C014B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F720A282C7A4900C014B1 /* Zork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6F720C282C7A4900C014B1 /* Zork */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F7232282C7B0700C014B1 /* actors.c */,
+				EC6F7217282C7B0700C014B1 /* ballop.c */,
+				EC6F721E282C7B0700C014B1 /* clockr.c */,
+				EC6F722E282C7B0700C014B1 /* demons.c */,
+				EC6F722A282C7B0700C014B1 /* dgame.c */,
+				EC6F7238282C7B0700C014B1 /* dinit.c */,
+				EC6F723D282C7B0800C014B1 /* dmain.c */,
+				EC6F7239282C7B0800C014B1 /* dso1.c */,
+				EC6F723A282C7B0800C014B1 /* dso2.c */,
+				EC6F7220282C7B0700C014B1 /* dso3.c */,
+				EC6F7234282C7B0700C014B1 /* dso4.c */,
+				EC6F722D282C7B0700C014B1 /* dso5.c */,
+				EC6F721D282C7B0700C014B1 /* dso6.c */,
+				EC6F7228282C7B0700C014B1 /* dso7.c */,
+				EC6F7237282C7B0700C014B1 /* dsub.c */,
+				EC6F722C282C7B0700C014B1 /* dtextc.dat */,
+				EC6F7235282C7B0700C014B1 /* dungeon.6 */,
+				EC6F7231282C7B0700C014B1 /* dverb1.c */,
+				EC6F7230282C7B0700C014B1 /* dverb2.c */,
+				EC6F721B282C7B0700C014B1 /* funcs.h */,
+				EC6F7236282C7B0700C014B1 /* gdt.c */,
+				EC6F7233282C7B0700C014B1 /* history */,
+				EC6F7221282C7B0700C014B1 /* lightp.c */,
+				EC6F7223282C7B0700C014B1 /* local.c */,
+				EC6F723B282C7B0800C014B1 /* Makefile */,
+				EC6F7229282C7B0700C014B1 /* nobjs.c */,
+				EC6F723C282C7B0800C014B1 /* np.c */,
+				EC6F722F282C7B0700C014B1 /* np1.c */,
+				EC6F7214282C7B0700C014B1 /* np2.c */,
+				EC6F7225282C7B0700C014B1 /* np3.c */,
+				EC6F7215282C7B0700C014B1 /* nrooms.c */,
+				EC6F722B282C7B0700C014B1 /* objcts.c */,
+				EC6F7216282C7B0700C014B1 /* parse.h */,
+				EC6F7219282C7B0700C014B1 /* README.md */,
+				EC6F721C282C7B0700C014B1 /* readme.txt */,
+				EC6F721A282C7B0700C014B1 /* rooms.c */,
+				EC6F7226282C7B0700C014B1 /* sobjs.c */,
+				EC6F7227282C7B0700C014B1 /* supp.c */,
+				EC6F721F282C7B0700C014B1 /* sverbs.c */,
+				EC6F7224282C7B0700C014B1 /* vars.h */,
+				EC6F7218282C7B0700C014B1 /* verbs.c */,
+				EC6F7222282C7B0700C014B1 /* villns.c */,
+				EC6F720D282C7A4900C014B1 /* main.cpp */,
+			);
+			path = Zork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6F7209282C7A4900C014B1 /* Zork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6F7211282C7A4900C014B1 /* Build configuration list for PBXNativeTarget "Zork" */;
+			buildPhases = (
+				EC6F7206282C7A4900C014B1 /* Sources */,
+				EC6F7207282C7A4900C014B1 /* Frameworks */,
+				EC6F7208282C7A4900C014B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zork;
+			productName = Zork;
+			productReference = EC6F720A282C7A4900C014B1 /* Zork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6F7202282C7A4900C014B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EC6F7209282C7A4900C014B1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC6F7205282C7A4900C014B1 /* Build configuration list for PBXProject "Zork" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6F7201282C7A4900C014B1;
+			productRefGroup = EC6F720B282C7A4900C014B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6F7209282C7A4900C014B1 /* Zork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6F7206282C7A4900C014B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6F725A282C7B0800C014B1 /* dinit.c in Sources */,
+				EC6F7255282C7B0800C014B1 /* dverb1.c in Sources */,
+				EC6F724E282C7B0800C014B1 /* nobjs.c in Sources */,
+				EC6F725D282C7B0800C014B1 /* Makefile in Sources */,
+				EC6F7246282C7B0800C014B1 /* dso3.c in Sources */,
+				EC6F724A282C7B0800C014B1 /* np3.c in Sources */,
+				EC6F7245282C7B0800C014B1 /* sverbs.c in Sources */,
+				EC6F7249282C7B0800C014B1 /* local.c in Sources */,
+				EC6F7247282C7B0800C014B1 /* lightp.c in Sources */,
+				EC6F7250282C7B0800C014B1 /* objcts.c in Sources */,
+				EC6F7242282C7B0800C014B1 /* rooms.c in Sources */,
+				EC6F724B282C7B0800C014B1 /* sobjs.c in Sources */,
+				EC6F723E282C7B0800C014B1 /* np2.c in Sources */,
+				EC6F724F282C7B0800C014B1 /* dgame.c in Sources */,
+				EC6F7251282C7B0800C014B1 /* dso5.c in Sources */,
+				EC6F720E282C7A4900C014B1 /* main.cpp in Sources */,
+				EC6F725C282C7B0800C014B1 /* dso2.c in Sources */,
+				EC6F725E282C7B0800C014B1 /* np.c in Sources */,
+				EC6F7252282C7B0800C014B1 /* demons.c in Sources */,
+				EC6F725F282C7B0800C014B1 /* dmain.c in Sources */,
+				EC6F7254282C7B0800C014B1 /* dverb2.c in Sources */,
+				EC6F7241282C7B0800C014B1 /* verbs.c in Sources */,
+				EC6F7258282C7B0800C014B1 /* gdt.c in Sources */,
+				EC6F7253282C7B0800C014B1 /* np1.c in Sources */,
+				EC6F725B282C7B0800C014B1 /* dso1.c in Sources */,
+				EC6F7257282C7B0800C014B1 /* dso4.c in Sources */,
+				EC6F723F282C7B0800C014B1 /* nrooms.c in Sources */,
+				EC6F7243282C7B0800C014B1 /* dso6.c in Sources */,
+				EC6F7248282C7B0800C014B1 /* villns.c in Sources */,
+				EC6F7240282C7B0800C014B1 /* ballop.c in Sources */,
+				EC6F724D282C7B0800C014B1 /* dso7.c in Sources */,
+				EC6F7259282C7B0800C014B1 /* dsub.c in Sources */,
+				EC6F7256282C7B0800C014B1 /* actors.c in Sources */,
+				EC6F7244282C7B0800C014B1 /* clockr.c in Sources */,
+				EC6F724C282C7B0800C014B1 /* supp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC6F720F282C7A4900C014B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC6F7210282C7A4900C014B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC6F7212282C7A4900C014B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6F7213282C7A4900C014B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6F7205282C7A4900C014B1 /* Build configuration list for PBXProject "Zork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6F720F282C7A4900C014B1 /* Debug */,
+				EC6F7210282C7A4900C014B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6F7211282C7A4900C014B1 /* Build configuration list for PBXNativeTarget "Zork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6F7212282C7A4900C014B1 /* Debug */,
+				EC6F7213282C7A4900C014B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6F7202282C7A4900C014B1 /* Project object */;
+}
